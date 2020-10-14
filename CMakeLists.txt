@@ -3,7 +3,7 @@ project(lab1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab1 main.cpp LongArithmetic.cpp LongArithmetic.h)
+add_executable(lab1 main.cpp GeneratePrime.cpp GeneratePrime.h)
 
 set(GMP_DIR "/usr/local/Cellar/gmp/6.2.0")
 include_directories(lab1 ${GMP_DIR}/include)
